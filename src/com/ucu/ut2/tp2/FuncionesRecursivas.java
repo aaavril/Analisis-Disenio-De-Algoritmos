@@ -81,8 +81,7 @@ public class FuncionesRecursivas
 	{
 			return "";
 	}
-		String resultado = s.substring(s.length() -1) + cadenaInversa(s.substring(0, s.length() - 1));
-		return resultado;
+		return s.substring(s.length() -1) + cadenaInversa(s.substring(0, s.length() - 1));
 	}
 		
 		
@@ -160,6 +159,7 @@ public class FuncionesRecursivas
 	        permutaciones(restante, parcial + c);
 	    }
 	}
+	
 	
 	// Main para probar todos los métodos
     public static void main(String[] args) {
